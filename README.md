@@ -8,6 +8,8 @@ multiple animated effects and a few controls added onto it
 - Arduino Uno R4 minima
 - 29 HD107S addressable LEDs
 - Push button connected to pin 12 and ground
+- Potentiometer on pin A0
+- 
 - LED data on pin 11 and clock on pin 13
 
 This amount of LED's it seems to be runnin of the 5v pin of the arduino uno, but it really shouldnt
