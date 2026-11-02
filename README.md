@@ -1,17 +1,17 @@
 # Halloween LED Costume
 
-An Arduino Nano 33 BLE costume-lighting project with 29 addressable LEDs and
-multiple animated effects. Press the button to switch between effects.
+An Arduino Uno R4 minima costume-lighting project with 29 addressable LEDs,
+multiple animated effects and a few controls added onto it
 
 ## Hardware
 
-- Arduino Nano 33 BLE
+- Arduino Uno R4 minima
 - 29 HD107S addressable LEDs
 - Push button connected to pin 12 and ground
 - LED data on pin 11 and clock on pin 13
 
-Use an appropriate power supply for the LEDs and connect its ground to the
-Arduino ground.
+This amount of LED's it seems to be runnin of the 5v pin of the arduino uno, but it really shouldnt
+Add a external power supply to the led strip, connect the grounds of the uno and the power supply.
 
 ## Effects
 
@@ -26,7 +26,8 @@ then run these commands from the project directory:
 ```sh
 pio run
 pio run --target upload
-```
+```      
 
 FastLED is installed automatically from the dependency declared in
 `platformio.ini`.
+    
